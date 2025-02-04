@@ -23,7 +23,7 @@ jobs:
           {
             "index_file": true,
             "relative_prefix": "/docs/mimir/latest/",
-            "repo": mimir",
+            "repo": "mimir",
             "source_directory": "docs/sources/mimir",
             "website_directory": "content/docs/mimir/latest"
           },
