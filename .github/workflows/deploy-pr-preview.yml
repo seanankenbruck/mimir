@@ -21,7 +21,7 @@ jobs:
       sources: |
         [
           {
-            "index_file": true,
+            "index_file": "content/docs/mimir/_index.md",
             "relative_prefix": "/docs/mimir/latest/",
             "repo": "mimir",
             "source_directory": "docs/sources/mimir",
