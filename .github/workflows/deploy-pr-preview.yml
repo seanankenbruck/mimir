@@ -35,3 +35,4 @@ jobs:
             "website_directory": "content/docs/helm-charts/mimir-distributed/latest"
           }
         ]
+      title: ${{ github.event.pull_request.title }}
