@@ -28,7 +28,7 @@ jobs:
             "website_directory": "content/docs/mimir/latest"
           },
           {
-            "index_file": true,
+            "index_file": "content/docs/helm-charts/mimir-distributed/_index.md",
             "relative_prefix": "/docs/helm-charts/mimir-distributed/latest/",
             "repo": "mimir",
             "source_directory": "docs/sources/mimir-distributed",
