@@ -10,6 +10,7 @@ on:
       - "docs/sources/**"
 
 jobs:
+  deploy-pr-preview:
     if: "!github.event.pull_request.head.repo.fork"
     uses: grafana/writers-toolkit/.github/workflows/deploy-preview.yml@jdb/deploy-preview
     with:
