@@ -30,7 +30,7 @@ jobs:
           {
             "index_file": true,
             "relative_prefix": "/docs/helm-charts/mimir-distributed/latest/",
-            "repo": mimir",
+            "repo": "mimir",
             "source_directory": "docs/sources/mimir-distributed",
             "website_directory": "content/docs/helm-charts/mimir-distributed/latest"
           }
